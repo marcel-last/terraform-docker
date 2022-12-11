@@ -1,0 +1,7 @@
+services:
+  terraform:
+    image: terraform:latest
+    hostname: terraform
+    build:
+      context: .
+      dockerfile: Dockerfile
